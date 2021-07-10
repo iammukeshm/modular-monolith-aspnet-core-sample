@@ -8,9 +8,11 @@ namespace Module.Catalog.Infrastructure.Persistence
     public class CatalogDbContext : ModuleDbContext, ICatalogDbContext
     {
         protected override string Schema => "Catalog";
-        public CatalogDbContext(DbContextOptions<CatalogDbContext> options): base(options)
+
+        public CatalogDbContext(DbContextOptions<CatalogDbContext> options) : base(options)
         {
         }
+
         public DbSet<Brand> Brands { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

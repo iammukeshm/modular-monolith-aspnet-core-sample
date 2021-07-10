@@ -1,6 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using MediatR;
 
 namespace Modules.Catalog.Core.Extensions
 {
