@@ -9,7 +9,7 @@ using Module.Catalog.Infrastructure.Persistence;
 namespace Module.Catalog.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(CatalogDbContext))]
-    [Migration("20210710114029_initial")]
+    [Migration("20210711051936_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
